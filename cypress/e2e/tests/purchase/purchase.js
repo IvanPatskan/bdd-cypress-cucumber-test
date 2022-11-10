@@ -1,6 +1,4 @@
-import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor';
-//import searchProduct from '../../Pages//SearchProductPage/SearchProductPage.spec';
-//import homePage from '../../Pages/HomePage/HomePage.spec';
+const { Given, When, Then } = require('@badeball/cypress-cucumber-preprocessor');
 const loginPage = require('../../pageobjects/loginPage')
 const homePage = require('../../pageobjects/homePage')
 const cartPage = require('../../pageobjects/cartPage')
